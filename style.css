@@ -17,6 +17,7 @@ body{
     padding: 30px;
     border-radius: 7px;
     background: #fff;
+    margin: 20px;
 }
 
 .wrapper header{
@@ -111,6 +112,27 @@ form button{
     font-size: 17px;
     cursor: pointer;
     background: #675AFE;
+}
+
+@media screen and (max-width: 400px) {
+
+    .wrapper {
+        padding: 20px;
+    }
+
+    .from, .to{
+        width: 100px;
+    }
+
+    .drop-list .select-box{
+        width: auto;
+    }
+
+    .drop-list .icon {
+        font-size: 20px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 }
 
 /* 5:50  https://www.youtube.com/watch?v=UY7F37KHyI8 */
